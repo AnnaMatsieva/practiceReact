@@ -1,0 +1,21 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "practice in working with React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnnaMatsieva"
+  },
+  "author": "AnnaMatieva",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
