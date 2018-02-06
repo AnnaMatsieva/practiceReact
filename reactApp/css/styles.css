@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.flex-column {
+	display: flex;
+	align-items: center;
+}
+
+/* Header */
+#header {
+	background: orange;
+}
+
+.header-menu li {
+	margin-right: 20px;
+}
+
+/* Content */
+#content {}
+
+.goods {
+	flex-wrap: wrap;
+}
+
+.good {
+	margin-bottom: 20px;
+}
+
+.good-image {
+	max-width: 200px;
+}
+
+#good-order {
+	background: orange;
+	padding: 10px 15px;
+	border: none;
+}
+
+/* Modal dialog */
+
+/* Footer */
+#footer {
+	background: #333;
+}

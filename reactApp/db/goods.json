@@ -1,0 +1,50 @@
+[
+	{ 
+		"id": "1",
+		"name": "good1",
+		"src": "./images/2.jpg",
+		"alt": "alt1",
+		"description": "description1",
+		"price": "1"
+	},
+	{ 
+		"id": "2",
+		"name": "good2",
+		"src": "./images/2.jpg",
+		"alt": "alt2",
+		"description": "description2",
+		"price": "2"
+	},
+	{ 
+		"id": "3",
+		"name": "good3",
+		"src": "./images/2.jpg",
+		"alt": "alt3",
+		"description": "description3",
+		"price": "3"
+	},
+	{ 
+		"id": "4",
+		"name": "good4",
+		"src": "./images/2.jpg",
+		"alt": "alt4",
+		"description": "description4",
+		"price": "4"
+	},
+	{ 
+		"id": "5",
+		"name": "good5",
+		"src": "./images/2.jpg",
+		"alt": "alt5",
+		"description": "description5",
+		"price": "5"
+	},
+	{ 
+		"id": "6",
+		"name": "name6",
+		"src": "./images/2.jpg",
+		"alt": "alt6",
+		"description": "description6",
+		"price": "6"
+	}
+]
