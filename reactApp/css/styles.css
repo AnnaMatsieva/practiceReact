@@ -1,5 +1,13 @@
 body {
 	margin: 0;
+	font: normal normal 16px 'Arial';
+	color: #333;
+}
+
+p,
+h2,
+a {
+	color: #333;
 }
 
 ul {
@@ -22,13 +30,36 @@ li {
 	align-items: center;
 }
 
-/* Header */
-#header {
-	background: orange;
+.container {
+	max-width: 90%;
+	margin: auto;
+	position: relative;
 }
+
+/* Header */
+#header {}
 
 .header-menu li {
 	margin-right: 20px;
+}
+
+.header-menu li a { /* click area*/
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+}
+
+.header-menu li a:hover {
+	color: orange;
+}
+
+.logo {
+	font-size: 30px;
+	color: #333;
+	text-transform: uppercase;
+	padding: 10px 0;
 }
 
 /* Content */
@@ -39,7 +70,52 @@ li {
 }
 
 .good {
-	margin-bottom: 20px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: baseline;
+    text-overflow: clip;
+    max-width: 300px;
+    min-width: 300px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: solid orange 2px;
+    text-align: center;
+    padding: 10px 15px 20px;
+}
+
+.goods-block {
+	text-align: center;
+}
+
+.goods-block h2 {
+	text-transform: uppercase;
+}
+
+.good-name {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase; 
+	text-decoration: none;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.good-name:hover {
+	color: orange;
+}
+
+.good-description {
+
+}
+
+.good-price {
+	font-weight: bold;
+}
+
+.good-price span {
+	font-size: 18px;
+	color: orange;
 }
 
 .good-image {
@@ -50,11 +126,67 @@ li {
 	background: orange;
 	padding: 10px 15px;
 	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
 }
-
-/* Modal dialog */
 
 /* Footer */
 #footer {
 	background: #333;
+}
+
+.footer-menu {
+	justify-content: space-around;
+	padding: 15px;
+}
+
+.footer-menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-menu li a:hover {
+	color: orange;
+}
+
+/*modal window*/
+.modal {
+	display: none;
+ 	position: fixed;
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+	background-color: #fefefe;
+  	padding: 20px;
+  	border: 1px solid #888;
+  	position: absolute;
+  	left: 50%;
+  	bottom: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.close {
+	color: #aaaaaa;
+  	font-size: 28px;
+  	font-weight: bold;
+  	position: absolute;
+  	top: 0;
+  	right: 5px;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+
+#myBtn {
+	margin: 20px;
 }

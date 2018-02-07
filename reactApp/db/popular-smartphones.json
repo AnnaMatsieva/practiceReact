@@ -1,0 +1,50 @@
+[
+	{ 
+		"id": "1",
+		"name": "Huawei",
+		"src": "./images/2.jpg",
+		"alt": "alt1",
+		"description": "Popular Smartphone Huawei description",
+		"price": "100"
+	},
+	{ 
+		"id": "2",
+		"name": "Samsung",
+		"src": "./images/2.jpg",
+		"alt": "alt2",
+		"description": "Popular Smartphone Samsung description",
+		"price": "300"
+	},
+	{ 
+		"id": "3",
+		"name": "iPhone",
+		"src": "./images/2.jpg",
+		"alt": "alt3",
+		"description": "Popular Smartphone iPhone description",
+		"price": "500"
+	},
+	{ 
+		"id": "4",
+		"name": "Nokia",
+		"src": "./images/2.jpg",
+		"alt": "alt4",
+		"description": "Popular Smartphone Nokia description",
+		"price": "700"
+	},
+	{ 
+		"id": "5",
+		"name": "Lenovo",
+		"src": "./images/2.jpg",
+		"alt": "alt5",
+		"description": "Popular Smartphone Lenovo description",
+		"price": "300"
+	},
+	{ 
+		"id": "6",
+		"name": "Panasonic",
+		"src": "./images/2.jpg",
+		"alt": "alt6",
+		"description": "Popular Smartphone Panasonic description",
+		"price": "200"
+	}
+]
