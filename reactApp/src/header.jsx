@@ -3,7 +3,7 @@ import React from 'react';
 class Header extends React.Component {
    render() {
       return (
-         <div className="flex-center">
+         <header className="flex-center">
             <a className="logo" href="#">Logo</a>
             <nav>
                <ul className="header-menu flex-column">
@@ -13,7 +13,7 @@ class Header extends React.Component {
                   <li><a href="#">Item 4</a></li>
                </ul>
             </nav>
-         </div>
+         </header>
       );
    }
 }

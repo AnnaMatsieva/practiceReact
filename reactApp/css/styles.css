@@ -37,7 +37,6 @@ li {
 }
 
 /* Header */
-#header {}
 
 .header-menu li {
 	margin-right: 20px;
@@ -63,7 +62,6 @@ li {
 }
 
 /* Content */
-#content {}
 
 .goods {
 	flex-wrap: wrap;
@@ -132,13 +130,11 @@ li {
 }
 
 /* Footer */
-#footer {
-	background: #333;
-}
 
 .footer-menu {
 	justify-content: space-around;
 	padding: 15px;
+	background: #333;
 }
 
 .footer-menu li a {

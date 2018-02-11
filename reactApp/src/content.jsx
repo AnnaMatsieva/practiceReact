@@ -5,7 +5,7 @@ import smartphones from '../db/smartphones.json';
 class Content extends React.Component {
 	render() {
 		return (
-			<div>
+			<main className="container">
 
 				<div className="goods-block">
 					<h2>Popular Smartphones</h2>
@@ -21,10 +21,10 @@ class Content extends React.Component {
 										
 										<button id="myBtn good-order">Order</button>
 								        <div id="myModal" className="modal">
-								          <div className="modal-content">
-								            <span className="close">&times;</span>
-								            <p>Some text</p>
-								          </div>
+								        	<div className="modal-content">
+								            	<span className="close">&times;</span>
+								            	<p>Some text</p>
+								          	</div>
 								        </div>  
 									</div>
 								</li>;						
@@ -47,10 +47,10 @@ class Content extends React.Component {
 										
 										<button id="myBtn good-order">Order</button>
 								        <div id="myModal" className="modal">
-								          <div className="modal-content">
-								            <span className="close">&times;</span>
-								            <p>Some text</p>
-								          </div>
+								        	<div className="modal-content">
+								            	<span className="close">&times;</span>
+								            	<p>Some text</p>
+								          	</div>
 								        </div>  
 									</div>
 								</li>;						
@@ -59,7 +59,7 @@ class Content extends React.Component {
 					</ul>
 				</div>
 
-			</div>
+			</main>
 		);
 	}
 }
